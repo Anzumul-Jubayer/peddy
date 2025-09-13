@@ -99,7 +99,7 @@
           has a.
         </p>
       </div>
-      <section class="lg:max-w-7/12 lg:mx-auto px-3">
+      <section class="lg:max-w-9/12 lg:mx-auto px-3 my-15">
         <!-- category -->
         <div
           id="category-div"
@@ -107,26 +107,42 @@
         ></div>
         <div class="flex items-center justify-between my-5">
           <h1 class="font-semibold text-2xl">Best Deal For you</h1>
-          <button class="btn bg-[#0e7a81] text-white rounded-lg mt-6">
+          <button onclick="sortByPrice()" class="btn bg-[#0e7a81] text-white rounded-lg mt-6">
             Sort by Price
           </button>
         </div>
-        <div class="grid grid-cols-4 gap-8 ">
-          <div id="all-pets" class="col-span-3 grid grid-cols-3 gap-5">
-            
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+          <div
+            id="all-pets"
+            class="col-span-3 grid grid-cols-1 lg:grid-cols-3 gap-5"
+          >
+            <div class="col-span-full text-center my-20">
+              <span class="loading loading-dots loading-xl"></span>
+            </div>
           </div>
           <!-- sort -->
-          <div class="bg-white border-1 border-gray-100 shadow-md col-span-1 rounded-lg">
-            
+          <div id="cart-conataine"
+            class="bg-white border-1 border-gray-100 shadow-md col-span-1 rounded-lg lg:h-150 overflow-x-auto px-3"
+          >
+            <h2 class="text-lg font-bold mb-3 text-center my-5">Liked Pets</h2>
+             <div id="liked-pets" class="grid grid-cols-2 gap-2">
+    
+               </div>
           </div>
         </div>
-  
-
-  
-
-
+        <!-- modal-->
+       
+        <dialog id="modal-container" class="modal modal-bottom sm:modal-middle">
+          <div id="modal-box" class=""">
+           
+          </div>
+        </dialog>
       </section>
+     
     </main>
+    <footer class="bg-black p-4 text-center">
+      <p class="text-white">© 2025 PEDDY. All Rights Reserved.</p>
+    </footer>
     <script src="./js/script.js"></script>
   </body>
 </html>
