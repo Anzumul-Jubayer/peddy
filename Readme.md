@@ -50,6 +50,5 @@ Peddy is a responsive web application that helps users find, explore, and adopt 
 
 ---
 
-## 🔗 Relevant Links
-- Live Website: https://peddy-pet-adption.netlify.app/
+
 
