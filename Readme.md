@@ -10,8 +10,7 @@ Peddy is a responsive web application that helps users find, explore, and adopt 
 
 ---
 
-## 🖼️ Screenshot
-![Peddy Screenshot](https://your-screenshot-link.com)
+
 
 ---
 
